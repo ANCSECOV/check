@@ -1,1 +1,18 @@
-<meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbwHLD12A5oPVuap8FeWbdloprkftANLNovI3ron8diQXIlyP0Q3xNQd1apiPM7Zwotp/exec">
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Prende tutti i parametri passati al link di GitHub (es. ?id=123)
+        const parametri = window.location.search;
+        
+        // Il link di base della tua Google Web App
+        const googleWebApp = "https://script.google.com/macros/s/AKfycbwHLD12A5oPVuap8FeWbdloprkftANLNovI3ron8diQXIlyP0Q3xNQd1apiPM7Zwotp/exec";
+        
+        // Unisce il link di Google con i parametri e attiva il redirect
+        window.location.href = googleWebApp + parametri;
+    </script>
+</head>
+<body>
+    <p>Reindirizzamento in corso...</p>
+</body>
+</html>
